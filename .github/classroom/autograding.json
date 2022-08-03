@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 manacost.py",
+      "input": "WWGR\r\n2WWG",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 manacost.py",
+      "input": "CCWGR\r\n3WB",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 manacost.py",
+      "input": "R\r\n1",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 manacost.py",
+      "input": "RRWG\r\n2WG",
+      "output": "True",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 manacost.py",
+      "input": "WWGRR\r\n3WU",
+      "output": "False",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    }
+  ]
+}
